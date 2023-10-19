@@ -1,0 +1,36 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../src",
+    "distDir": "../src"
+  },
+  "package": {
+    "productName": "multi-op-qso-logger",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "us.austinh.multi-op-qso-logger",
+      "publisher": "Austin Hadley"
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "endpoint": "https://github.com/H2-Technologies/Multi-User-Contact-Logger/releases/latest/download"
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "Multi-Operator QSO Logger",
+        "width": 800
+      }
+    ]
+  }
+}
