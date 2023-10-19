@@ -21,7 +21,9 @@
     },
     "updater": {
       "active": true,
-      "endpoints": "https://github.com/H2-Technologies/Multi-User-Contact-Logger/releases/latest/download"
+      "endpoints": [
+        "https://github.com/H2-Technologies/Multi-User-Contact-Logger/releases/latest/download"
+      ]
     },
     "windows": [
       {
